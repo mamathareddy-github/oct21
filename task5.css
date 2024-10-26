@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    border: 2px solid;
+    gap: 10px;
+    height: 500px;
+   /* align-items: start;*/      
+}
+.flex-child{
+    padding: 10px;
+   
+}
+.child1{
+    background-color: rgb(14, 219, 151);
+    align-self: flex-start;
+}
+.child2{
+    background-color: red;
+    align-self: center;
+}
+.child3{
+    background-color: yellow;
+    align-self: flex-start;
+}

@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    border: 2px solid;
+    
+}
+.child1{
+    background-color: pink;
+    flex-shrink: 1;
+    width: 200px;
+}
+.child2{
+    background-color: rgb(109, 158, 215);
+    flex-shrink: 1;
+    width: 200px;
+}
+.child3{
+    background-color: rgb(42, 84, 74);
+    flex-shrink: 3;
+    flex-grow: 2;
+}
+.child4{
+    background-color: rgb(24, 236, 169);
+    flex-shrink: 2;
+    flex-grow: 3;
+}
